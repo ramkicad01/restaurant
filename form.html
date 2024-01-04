@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>this iis the form</h1>
+
+    <form action="get">
+        <p>
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" name="fname" value="Ramki">
+        </p>
+      
+        <p>
+            <label for="lname">Last Name: </label>
+            <input type="text"  id="lname" name="lname" value="Sridhar">
+    
+        </p>
+
+        <p>
+            <label for="phone">Phone Number: </label>
+            <input type="tel"  id="phone" name="phone" value="1122334455">
+        </p>
+
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+
+    <table border="3px solid red">
+        <tr>
+            <td id="fnamedisp"></td>
+        </tr>
+
+        <tr>
+            <td id="lnamedisp"></td>
+        </tr>
+
+        <tr>
+            <td id="phnodisp"></td>
+        </tr>
+    </table>
+
+    <script>
+         document.getElementById("fnamedisp").innerHTML=document.getElementById("fname").value;
+
+         document.getElementById("lnamedisp").innerHTML=document.getElementById("lname").value;
+
+         document.getElementById("phnodisp").innerHTML=document.getElementById("phone").value;
+    </script>
+
+</body>
+</html>
