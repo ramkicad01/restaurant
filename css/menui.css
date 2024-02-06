@@ -100,7 +100,7 @@ li a:hover{
 .brand h2{
 	background-color: inherit;
 	color: darkred;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	border-bottom: 1px darkred solid;
 	border-top: 1px darkred solid;
 	padding: 0.25rem;
@@ -115,6 +115,8 @@ ul .login{
 	display: flex;
 	flex-direction: row;
 }
+
+
 
 footer{
 	position: sticky;
@@ -133,51 +135,60 @@ footer ul{
 }
 
 footer img{
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 }
 
 footer p{
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
 }
-
-
-.swiper-slide{
-    max-height: 100%;
+footer a{
+    /* display: inline-block; */
+    margin-inline: 0;
+}
+footer a:hover{
+    padding: 0.5rem;
 }
 
-.swiper-slide img{
-    height: 500px;
-    width: 100%;
-}
 
-.slide-overlay h2{
-   position: absolute;
-   margin-left: 0;
-   margin-top: 5%;
-   z-index: 999;
-   background: transparent;
-   color: white;
-   font-family: 'Protest Riot', sans-serif;
-   font-size: 8rem;
-   background;
-}
-
-.slide-overlay2 h2{
-    position: absolute;
-    margin-left: 0;
-    margin-top: 20%;
-    z-index: 999;
-    background: transparent;
-    color: white;
-    font-family: 'Protest Riot', sans-serif;
-    font-size: 8rem;
+ .menucard{
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Poppins', sans-serif;
  }
 
- @media screen and (max-width: 100px) {
-	li a{
-		font-size: 10px;
-	}
+ .menu{
+	background-color: white;
+	border: orange 2px solid;
+	width: 20%;
+	height: 600px;
 
  }
+
+ .menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+
+ }
+
+ .menu ul{
+
+	font-size: 1.25rem;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	align-items: space-between;
+ }
+
+.itemlist{
+	display: block;
+}
+ .menu h2{
+	background-color: rgb(255, 123, 0);
+	color: white;
+	padding: 0.5rem;
+	text-align: center;
+	letter-spacing: 1px;
+ }
+

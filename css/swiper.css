@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+  .swiper {
+    width: 1349px;
+    height: 300px;
+  }
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: rgba(177, 58, 58, 0.897);
+    
+}
+/* 
+.swiper-pagination-bullet-active {
+    background-color: #000 !important;
+    width: 1rem;
+    height: 1rem;
+} */
+/* change active bullet color to red */
+.swiper-pagination {
+    
+    /* background: var(--swiper-pagination-color, var(--swiper-theme-color)); */
+    opacity: 1;
+    background-color: rgb(55, 206, 143);
+    width: 3rem;
+    height: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+/* move swiper pagination on top to image
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 0;
+    top: 0 !important;
+} */
+
+
+.swiper-scrollbar-active{
+    color: aquamarine;
+}
